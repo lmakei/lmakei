@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.347" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/opt/homebrew/Cellar/maven/3.8.3/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Vilnius"/>
+    <property name="maven.conf" value="/opt/homebrew/Cellar/maven/3.8.3/libexec/conf"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="LT"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/opt/homebrew/Cellar/maven/3.8.3/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/lmakei"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17+0"/>
+    <property name="user.name" value="lmakei"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/v5/q7j2gn5d7qj7kwlxf5k34xjh0000gn/T/"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="/Users/lmakei/lada-workspace/FrameworkFromScratch"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/lmakei/lada-workspace/FrameworkFromScratch"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/lmakei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17+0"/>
+    <property name="classworlds.conf" value="/opt/homebrew/Cellar/maven/3.8.3/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/opt/homebrew/Cellar/maven/3.8.3/libexec/lib/jansi-native"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="validateDiscountCard" classname="lmakei.ValidateDiscountCard" time="0.065"/>
+  <testcase name="validateTittle" classname="lmakei.ValidateTittle" time="0.11">
+    <failure message="expected [MAKIAŽUI123] but found [MAKIAŽUI]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MAKIAŽUI123] but found [MAKIAŽUI]
+	at lmakei.ValidateTittle.validateTittle(ValidateTittle.java:35)
+</failure>
+    <system-err><![CDATA[Jan 04, 2022 5:25:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 85
+1641309929234	Marionette	INFO	Stopped listening on port 56543
+]]></system-err>
+  </testcase>
+  <testcase name="BasePageNavigation" classname="lmakei.HomePage" time="1.094"/>
+  <testcase name="BasePageNavigation" classname="lmakei.HomePage" time="0.838"/>
+</testsuite>

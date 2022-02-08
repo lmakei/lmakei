@@ -1,0 +1,6 @@
+17:19:46.232 [TestNG] INFO  resources.base - Navigate to Home page
+17:19:46.312 [TestNG] INFO  resources.base - Successfully validated the footer
+17:19:46.392 [TestNG] INFO  resources.base - Successfully validated title text
+17:19:50.927 [TestNG] INFO  resources.base - Successfully validated discount card
+17:41:05.250 [main] INFO  resources.base - Email and password of non-restricted user are enetred
+17:55:40.665 [main] INFO  resources.base - Email and password of non-restricted user are enetred

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-04T15:25:24Z" name="Suite" finished-at="2022-01-04T15:25:31Z" duration-ms="7756">
+    <groups>
+    </groups>
+    <test started-at="2022-01-04T15:25:24Z" name="Validating discount card on Home page" finished-at="2022-01-04T15:25:30Z" duration-ms="5993">
+      <class name="lmakei.ValidateDiscountCard">
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:lmakei.ValidateDiscountCard@25f7391e]" started-at="2022-01-04T17:25:24Z" name="initializedriver" finished-at="2022-01-04T17:25:29Z" duration-ms="5024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method signature="validateDiscountCard()[pri:0, instance:lmakei.ValidateDiscountCard@25f7391e]" started-at="2022-01-04T17:25:29Z" name="validateDiscountCard" finished-at="2022-01-04T17:25:29Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDiscountCard -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:lmakei.ValidateDiscountCard@25f7391e]" started-at="2022-01-04T17:25:29Z" name="teardown" finished-at="2022-01-04T17:25:30Z" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- lmakei.ValidateDiscountCard -->
+    </test> <!-- Validating discount card on Home page -->
+    <test started-at="2022-01-04T15:25:24Z" name="Validating title on Home page" finished-at="2022-01-04T15:25:30Z" duration-ms="6213">
+      <class name="lmakei.ValidateTittle">
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:lmakei.ValidateTittle@54361a9]" started-at="2022-01-04T17:25:24Z" name="initializedriver" finished-at="2022-01-04T17:25:29Z" duration-ms="5106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method signature="validateTittle()[pri:0, instance:lmakei.ValidateTittle@54361a9]" started-at="2022-01-04T17:25:29Z" name="validateTittle" finished-at="2022-01-04T17:25:29Z" duration-ms="106" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [MAKIAŽUI123] but found [MAKIAŽUI]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [MAKIAŽUI123] but found [MAKIAŽUI]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at lmakei.ValidateTittle.validateTittle(ValidateTittle.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTittle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:lmakei.ValidateTittle@54361a9]" started-at="2022-01-04T17:25:29Z" name="teardown" finished-at="2022-01-04T17:25:30Z" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- lmakei.ValidateTittle -->
+    </test> <!-- Validating title on Home page -->
+    <test started-at="2022-01-04T15:25:24Z" name="Validating Home page" finished-at="2022-01-04T15:25:31Z" duration-ms="7756">
+      <class name="lmakei.HomePage">
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:lmakei.HomePage@290b1b2e]" started-at="2022-01-04T17:25:24Z" name="initializedriver" finished-at="2022-01-04T17:25:29Z" duration-ms="5358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method signature="BasePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:lmakei.HomePage@290b1b2e]" started-at="2022-01-04T17:25:29Z" name="BasePageNavigation" data-provider="getData" finished-at="2022-01-04T17:25:30Z" duration-ms="1095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lada.makej@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non-restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method signature="BasePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:lmakei.HomePage@290b1b2e]" started-at="2022-01-04T17:25:30Z" name="BasePageNavigation" data-provider="getData" finished-at="2022-01-04T17:25:31Z" duration-ms="838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:lmakei.HomePage@290b1b2e]" started-at="2022-01-04T17:25:31Z" name="teardown" finished-at="2022-01-04T17:25:31Z" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- lmakei.HomePage -->
+    </test> <!-- Validating Home page -->
+  </suite> <!-- Suite -->
+</testng-results>

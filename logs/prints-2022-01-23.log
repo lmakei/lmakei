@@ -1,0 +1,8 @@
+11:52:29.086 [main] INFO  resources.base - Successfully validated title text
+11:54:30.479 [main] INFO  resources.base - Driver is initialized
+11:54:36.114 [main] INFO  resources.base - Navigate to Home page
+11:54:36.260 [main] INFO  resources.base - Successfully validated title text
+11:56:31.652 [main] INFO  resources.base - Driver is initialized
+11:56:36.277 [main] INFO  resources.base - Navigate to Home page
+11:56:36.357 [main] INFO  resources.base - Successfully validated the footer
+11:56:36.418 [main] INFO  resources.base - Successfully validated title text

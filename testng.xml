@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+	<listeners>
+		<listener class-name="lmakei.Listeners" />
+	</listeners>
+	<test name="Validating discount card on Home page">
+		<classes>
+			<class name="lmakei.ValidateDiscountCard" />
+		</classes>
+	</test>
+	<test name="Validating title on Home page">
+		<classes>
+			<class name="lmakei.ValidateTittle" />
+		</classes>
+	</test>
+	<test name="Validating Home page">
+		<classes>
+			<class name="lmakei.HomePage" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

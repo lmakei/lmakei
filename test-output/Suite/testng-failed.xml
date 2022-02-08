@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="lmakei.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Validating Home page(failed)">
+    <classes>
+      <class name="lmakei.ValidateDiscountCard">
+        <methods>
+          <include name="initializedriver"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- lmakei.ValidateDiscountCard -->
+      <class name="lmakei.HomePage">
+        <methods>
+          <include name="BasePageNavigation" invocation-numbers="0"/>
+          <include name="initializedriver"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- lmakei.HomePage -->
+      <class name="lmakei.ValidateTittle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initializedriver"/>
+        </methods>
+      </class> <!-- lmakei.ValidateTittle -->
+    </classes>
+  </test> <!-- Validating Home page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,6 @@
+17:24:44.962 [TestNG] INFO  resources.base - Email and password of non-restricted user are enetred
+17:24:45.839 [TestNG] INFO  resources.base - Email and password of restricted user are enetred
+17:25:12.642 [TestNG] INFO  resources.base - Driver is initialized
+17:25:15.131 [TestNG] INFO  resources.base - Successfully validated discount card
+17:25:16.016 [TestNG] INFO  resources.base - Navigate to Home page
+17:25:16.053 [TestNG] INFO  resources.base - Email and password of non-restricted user are enetred

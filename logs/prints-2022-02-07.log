@@ -1,0 +1,6 @@
+20:22:52.485 [main] INFO  resources.base - Email and password of non-restricted user are enetred
+20:22:54.002 [main] INFO  resources.base - Email and password of restricted user are enetred
+11:48:50.619 [main] INFO  resources.base - Email and password of non-restricted user are enetred
+11:53:37.519 [main] INFO  resources.base - Email and password of non-restricted user are enetred
+11:57:32.531 [main] INFO  resources.base - Email and password of non-restricted user are enetred
+17:19:30.355 [TestNG] INFO  resources.base - Driver is initialized
